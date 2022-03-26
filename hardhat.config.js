@@ -71,7 +71,6 @@ module.exports = {
 			accounts: {
 				mnemonic: SEED,
 				count: 1,
-				
 			},
 			gasPrice: 1000000000,
 		},
@@ -83,9 +82,24 @@ module.exports = {
 				count: 1,
 			},
 			gasPrice: 15000000000
-		}
+		},
+    'optimism': {
+      url: "https://mainnet.optimism.io",
+      accounts: {
+				mnemonic: SEED,
+				count: 1,
+			},
+    },
+    'optimism-kovan': {
+      url: "https://kovan.optimism.io",
+      accounts: {
+				mnemonic: SEED,
+				count: 1,
+			},
+    },
 	},
 	etherscan: {
 		apiKey: ETHERSCAN_API_KEY,
 	},
 };
+

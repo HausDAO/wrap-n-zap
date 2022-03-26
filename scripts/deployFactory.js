@@ -7,6 +7,8 @@ const networkName = {
 	4: 'rinkeby',
 	100: 'xDai',
 	137: 'polygon',
+	10: 'optimism',
+	69: 'optimistic kovan'
 };
 
 const networkCurrency = {
@@ -15,6 +17,8 @@ const networkCurrency = {
 	4: 'ETH',
 	100: 'xDai',
 	137: 'MATIC',
+	10: 'ETH',
+	69: 'ETH',
 };
 
 async function main() {
