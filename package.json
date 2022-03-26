@@ -6,7 +6,7 @@
   "author": "spengrah <code@spengrah.xyz>",
   "license": "MIT",
   "dependencies": {
-    "@nomiclabs/hardhat-etherscan": "^2.1.2",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
     "dotenv": "^8.2.0",
     "ethernal": "^0.7.4",
     "hardhat": "^2.1.2",
