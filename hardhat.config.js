@@ -71,11 +71,17 @@ module.exports = {
 			accounts: {
 				mnemonic: SEED,
 				count: 1,
-				
+
 			},
 			gasPrice: 1000000000,
 		},
-
+    goerli: {
+      url: `https://rpc.goerli.mudit.blog/`,
+      accounts: {
+				mnemonic: SEED,
+				count: 1,
+			},
+    },
 		mainnet: {
 			url: `https://mainnet.infura.io/v3/${INFURA_PROJECT_ID}`,
 			accounts: {
